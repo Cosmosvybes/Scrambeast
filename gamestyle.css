@@ -1,0 +1,232 @@
+body {
+    background-color: navy;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#player_box {
+
+    position: relative;
+    height: 500px;
+    width: auto;
+    border-radius: 10px;
+    background-color: turquoise;
+    border-right: 5px solid white;
+    padding: 20px;
+
+}
+
+
+#player_box #words_screen {
+    width: 300px;
+    height: 50px;
+    border-right: 5px solid darkblue;
+    border-bottom: 5px solid darkblue;
+    color: darkblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: cente solidr;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#answers_container {
+    display: block;
+    position: relative;
+    height: 50px;
+    width: 300px;
+    padding: 5px;
+
+}
+
+#answers_container input {
+    padding: 10px;
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    outline: none;
+    color: darkblue;
+    background-color: white;
+    border: 1px dotted darkblue;
+    border-radius: 10px;
+}
+
+#answers_container button {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 125px;
+    border: 1px solid darkblue;
+    color: white;
+    padding: 10px;
+    background-color: darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+}
+
+#stages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+    margin-top: 100px;
+    padding: auto;
+}
+
+
+#outcome_ {
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+
+
+}
+
+span {
+    border-radius: 10px;
+    color: darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    color: lightgray;
+    margin-top: 120px;
+    font-family: monospace;
+}
+
+@media screen and (max-width:640px) {
+    footer{
+        margin-top: 320px;
+    }
+    #player_box {
+        padding: 20px;
+        width: 300px;
+
+    }
+
+    #player_box #words_screen {
+        width: auto;
+
+    }
+
+    #outcome_ {
+        width: auto;
+        margin-left: 1px;
+    }
+
+    #answers_container input {
+        float: right;
+        width: auto;
+        margin-right: 60px;
+    }
+
+    #answers_container button {
+        width: auto;
+        float: right;
+
+        margin-right: 120px;
+    }
+
+    #stages {
+        padding: 0px;
+
+    }
+
+    #stages input {
+
+        color: darkblue;
+
+    }
+}
+
+
+
+@media screen and (max-width:568px) {
+    #player_box {
+        margin-right: -10px;
+        width: 280px;
+
+    }
+
+    #stages {
+        justify-content: space-between;
+
+
+    }
+}
+
+
+
+
+@media screen and (max-width:896px) {
+
+    #player_box {
+        width: 500px;
+    }
+
+    #stages {
+        padding: 5px;
+        justify-content: space-between;
+
+
+    }
+}
+
+#hint_ {
+    float: right;
+    position: relative;
+    margin-top: -4px;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#start_message {
+    position: relative;
+
+}
+
+#social_ {
+    display: flex;
+    flex-direction: row;
+}
+
+#social_ h6 {
+    color: lightgray;
+    font-family: monospace;
+}
+
+#social_ ul {
+    list-style-type: none;
+}
+
+#social_ hr {
+    border: 1px dotted lightgray;
+    border-left: none;
+}
+
+#social_ ul li {
+    display: block;
+}
+
+#social_ ul li a {
+    color: lightgray;
+    text-decoration: dashed;
+    font-family: monospace;
+}

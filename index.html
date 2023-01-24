@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrambeast App</title>
+    <link rel="stylesheet" href="gamestyle.css">
+</head>
+
+<body>
+
+    <h1> Scrambeast</h1>
+    <h4
+        style="color:darkblue; text-align: center;  border-radius: 10px; padding: 10px; background-color:white; font-family:monospace">
+        <span> Instruction: </span>
+        form any new word ranging from three letters to ten letters word out of the sequence of
+        alphabets that pops
+        up!
+    </h4>
+    <div id="player_box">
+
+        <span id="score_">
+            Scores : 0 </span>
+        <button id="hint_" disabled> hint </button>
+        <div id="outcome_"> </div>
+        <div id="words_screen">
+        </div>
+
+        <!-- answers_ and check button container -->
+
+        <div id="answers_container">
+            <input id="guess1_" type="text" placeholder="*******" />
+            <!-- <input id="guess2_" type="text" placeholder="Enter your first word" /> -->
+            <button id="check_"> Check </button>
+        </div>
+
+        <!-- stages button  -->
+
+        <div id="stages">
+            <input class="levels" id="level_1" type="button" value="1" />
+            <input class="levels" id="level_2" type="button" value="2" />
+            <input class="levels" id="level_3" type="button" value="3" />
+            <input class="levels" id="level_4" type="button" value="4" />
+            <input class="levels" id="level_5" type="button" value="5" />
+            <input class="levels" id="level_6" type="button" value="6" />
+            <input class="levels" id="level_7" type="button" value="7" />
+            <input class="levels" id="level_8" type="button" value="8" />
+            <input class="levels" id="level_9" type="button" value="9" />
+            <input class="levels" id="level_10" type="button" value="10" />
+        </div>
+        <span id="start_message">Press 1 to begin the first level</span>
+    </div>
+
+    <div id="social_">
+        <h6> follow us for more update </h6>
+
+        <ul>
+            <li><a href="twitter.com/chris_script_"> twitter </a> </li>
+            <li><a href="facebook.com/adewale.dapson"> facebook </a> </li>
+            <li><a href="github.com/cosmosvybes"> github </a> </li>
+        </ul>
+        <hr />
+
+    </div>
+
+
+
+
+    <footer id="year_"> </footer>
+
+    <script src="main.js"> </script>
+</body>
+
+</html>
